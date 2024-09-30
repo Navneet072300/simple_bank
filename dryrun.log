@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/navneetshahi/go-db'
+docker run --name postgres17 -p 5432:5432 -e POSTGRES_USER=root -e POSTGRES_PASSWORD=mypass -d postgres:17-alpine  
+make: Leaving directory `/Users/navneetshahi/go-db'
+ 
