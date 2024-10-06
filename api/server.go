@@ -2,7 +2,7 @@ package api
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/techschool/simplebank/internal/db"
+	db "github.com/techschool/simplebank/sqlc"
 )
 
 type Server struct{
