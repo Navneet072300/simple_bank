@@ -6,11 +6,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
- 
-make: *** No rule to make target `all'.  Stop.
 
-
-# Make data base, printed on Fri Oct  4 21:51:27 2024
+# Make data base, printed on Sun Oct  6 12:41:53 2024
 
 # Variables
 
@@ -29,16 +26,17 @@ NVM_INC = /Users/navneetshahi/.nvm/versions/node/v20.17.0/include/node
 # automatic
 @F = $(notdir $@)
 # makefile
- 
 CURDIR := /Users/navneetshahi/Code/go-db
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/private/var/folders/gk/f1bnn5dx6dg2x9zmdc_ttdj80000gn/T/AppTranslocation/E4ACCE0F-DDA8-439C-96EA-50ED764B2D89/d/Visual Studio Code.app/Contents/Resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}
+VSCODE_NLS_CONFIG = {"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/private/var/folders/gk/f1bnn5dx6dg2x9zmdc_ttdj80000gn/T/AppTranslocation/2BDBE5A6-EF13-4D5A-8D0E-237CF268F4A5/d/Visual Studio Code.app/Contents/Resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}
 # environment
 _ = /usr/bin/make
 # makefile (from `Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
@@ -46,7 +44,11 @@ INFOPATH = /opt/homebrew/share/info:
 # environment
 VSCODE_CWD = /
 # environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
 PATH = /opt/homebrew/opt/openjdk/bin:/Users/navneetshahi/.bun/bin:/Users/navneetshahi/.bun/bin:/Users/navneetshahi/.bun/bin:/Users/navneetshahi/.nvm/versions/node/v20.17.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/usr/local/go/bin
+# environment
+GOPATH = /Users/navneetshahi/go
 # environment
 NVM_BIN = /Users/navneetshahi/.nvm/versions/node/v20.17.0/bin
 # environment
@@ -54,7 +56,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.SjtZhKnmPg/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.f4dc2kD9SU/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -66,7 +68,7 @@ ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
 MANPATH = /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:
 # environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+GOMODCACHE = /Users/navneetshahi/go/pkg/mod
 # environment
 HOME = /Users/navneetshahi
 # default
@@ -79,6 +81,8 @@ LOGNAME = navneetshahi
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 NVM_CD_FLAGS = -q
+# environment
+GOTELEMETRY_GOPLS_CLIENT_START_TIME = 1727722316
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -128,6 +132,8 @@ HOMEBREW_PREFIX = /opt/homebrew
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
+GOTELEMETRY_GOPLS_CLIENT_TOKEN = 349
+# environment
 VSCODE_L10N_BUNDLE_LOCATION = 
 # automatic
 +F = $(notdir $+)
@@ -152,9 +158,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 47713
+VSCODE_PID = 39679
 # variable set hash-table stats:
-# Load=69/1024=7%, Rehash=0, Collisions=1/92=1%
+# Load=74/1024=7%, Rehash=0, Collisions=2/97=2%
 
 # Pattern-specific Variable Values
 
@@ -162,9 +168,9 @@ VSCODE_PID = 47713
 
 # Directories
 
-# . (device 16777232, inode 1271867): 12 files, no impossibilities.
+# . (device 16777233, inode 1271867): 17 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -190,7 +196,7 @@ all:
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
-.PHONY: postgres createdb dropdb migrateup migratedown sqlc
+.PHONY: postgres createdb dropdb migrateup migratedown sqlc test server
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -213,15 +219,25 @@ sqlc:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2024-10-01 01:51:28
+#  Last modified 2024-10-06 00:18:23
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
-test:
+server:
+#  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
-#  Modification time never checked.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 24):
+	go run main.go
+	
+
+test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 21):
 	go test  -v -cover ./...
@@ -266,11 +282,14 @@ migratedown:
 #  File does not exist.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 15):
+ 
+make: *** No rule to make target `all'.  Stop.
+
 	migrate -path db/migration -database "postgresql://root:mypass@localhost:5432/simple_bank?sslmode=disable" -verbose down
 	
 
 # files hash-table stats:
-# Load=12/1024=1%, Rehash=0, Collisions=0/30=0%
+# Load=13/1024=1%, Rehash=0, Collisions=0/33=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -279,10 +298,9 @@ migratedown:
 
 # # of strings in strcache: 1
 # # of strcache buffers: 1
- 
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Fri Oct  4 21:51:27 2024
+# Finished Make data base on Sun Oct  6 12:41:53 2024
 
  
