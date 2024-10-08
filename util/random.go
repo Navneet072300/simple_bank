@@ -9,6 +9,7 @@ import (
 
 var rnd = rand.New(rand.NewSource(time.Now().UnixNano()))
 const alphabte = "abcdefghijklmnopqrstuvwxyz"
+const pass = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$&*+=?<>"
 
 
 func RandomInt(min, max int64) int64 {
@@ -20,6 +21,14 @@ func RandomString(n int) string {
 
 	for i := 0; i < n; i++ {
 		sb.WriteByte(alphabte[rnd.Intn(len(alphabte))])
+		}
+		return sb.String()
+}
+func RandomPassword(n int) string {
+	var sb strings.Builder
+
+	for i := 0; i < n; i++ {
+		sb.WriteByte(alphabte[rnd.Intn(len(pass))])
 		}
 		return sb.String()
 }
