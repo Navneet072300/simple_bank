@@ -56,11 +56,8 @@ func (server *Server) createTransfer(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, result)
 }
 
-<<<<<<< HEAD
-
-=======
 func (server *Server) validAccount (ctx  *gin.Context,  accountID int64, currency string) (db.Account, bool) {
->>>>>>> ft/docker
+
 	account, err := server.store.GetAccount(ctx, accountID)
 	if err != nil {
 		if  err == sql.ErrNoRows {
@@ -68,21 +65,17 @@ func (server *Server) validAccount (ctx  *gin.Context,  accountID int64, currenc
 			return  account, false
 			}
 		ctx.JSON(http.StatusNotFound, errorResponse(err))
-<<<<<<< HEAD
+
 		return  account, false
-=======
-		
->>>>>>> ft/docker
+
 			}
 		
 	if account.Currency  != currency {
 		err := fmt.Errorf("account [%d] currency mismatch: %s vs  %s", accountID, account.Currency, currency)
 		ctx.JSON(http.StatusBadRequest, errorResponse(err))
-<<<<<<< HEAD
+
 		return account, false
 		}
 		return account, true
-=======
-		
->>>>>>> ft/docker
+
 }
