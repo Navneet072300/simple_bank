@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Sun Oct 13 13:05:18 2024
+# Make data base, printed on Fri Oct 18 11:12:20 2024
 
 # Variables
 
@@ -33,13 +33,11 @@ CURDIR := /Users/navneetshahi/Code/go-db
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/private/var/folders/gk/f1bnn5dx6dg2x9zmdc_ttdj80000gn/T/AppTranslocation/41CF932D-6336-433B-8116-4336EC065E5C/d/Visual Studio Code.app/Contents/Resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}
+VSCODE_NLS_CONFIG = {"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/private/var/folders/gk/f1bnn5dx6dg2x9zmdc_ttdj80000gn/T/AppTranslocation/B936FF9C-17FF-40AE-9AF4-911C37EC2F3A/d/Visual Studio Code.app/Contents/Resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}
 # environment
 _ = /usr/bin/make
 # makefile (from `Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
@@ -47,12 +45,7 @@ INFOPATH = /opt/homebrew/share/info:
 # environment
 VSCODE_CWD = /
 # environment
-GOPROXY = https://proxy.golang.org,direct
-# environment
- 
 PATH = /opt/homebrew/opt/openjdk/bin:/Users/navneetshahi/.bun/bin:/Users/navneetshahi/.bun/bin:/Users/navneetshahi/.bun/bin:/Users/navneetshahi/.nvm/versions/node/v20.17.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/usr/local/go/bin:/Users/navneetshahi/go/bin
-# environment
-GOPATH = /Users/navneetshahi/go
 # environment
 NVM_BIN = /Users/navneetshahi/.nvm/versions/node/v20.17.0/bin
 # environment
@@ -72,7 +65,7 @@ ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
 MANPATH = /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:
 # environment
-GOMODCACHE = /Users/navneetshahi/go/pkg/mod
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 HOME = /Users/navneetshahi
 # default
@@ -80,14 +73,11 @@ MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /De
 # environment
 VSCODE_CODE_CACHE_PATH = /Users/navneetshahi/Library/Application Support/Code/CachedData/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40
 # environment
- 
 LOGNAME = navneetshahi
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 NVM_CD_FLAGS = -q
-# environment
-GOTELEMETRY_GOPLS_CLIENT_START_TIME = 1727722316
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -99,7 +89,6 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
- 
 SHLVL = 1
 # default
 MAKE_VERSION := 3.81
@@ -138,8 +127,6 @@ HOMEBREW_PREFIX = /opt/homebrew
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
-GOTELEMETRY_GOPLS_CLIENT_TOKEN = 349
-# environment
 VSCODE_L10N_BUNDLE_LOCATION = 
 # automatic
 +F = $(notdir $+)
@@ -164,10 +151,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 45864
- 
+VSCODE_PID = 32158
 # variable set hash-table stats:
-# Load=74/1024=7%, Rehash=0, Collisions=2/97=2%
+# Load=69/1024=7%, Rehash=0, Collisions=1/92=1%
 
 # Pattern-specific Variable Values
 
@@ -175,9 +161,9 @@ VSCODE_PID = 45864
 
 # Directories
 
-# . (device 16777233, inode 1271867): 20 files, no impossibilities.
+# . (device 16777233, inode 1271867): 23 files, no impossibilities.
 
-# 20 files, no impossibilities in 1 directories.
+# 23 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -284,7 +270,6 @@ dropdb:
 	
 
 migrateup:
- 
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -303,6 +288,7 @@ migrateup1:
 	
 
 migratedown:
+ 
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -333,6 +319,6 @@ mock:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sun Oct 13 13:05:18 2024
+# Finished Make data base on Fri Oct 18 11:12:20 2024
 
  
