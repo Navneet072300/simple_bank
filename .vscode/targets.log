@@ -6,11 +6,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
- 
-make: *** No rule to make target `all'.  Stop.
 
-
-# Make data base, printed on Fri Oct 18 11:12:20 2024
+# Make data base, printed on Mon Oct 21 21:31:13 2024
 
 # Variables
 
@@ -33,7 +30,7 @@ CURDIR := /Users/navneetshahi/Code/go-db
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/private/var/folders/gk/f1bnn5dx6dg2x9zmdc_ttdj80000gn/T/AppTranslocation/B936FF9C-17FF-40AE-9AF4-911C37EC2F3A/d/Visual Studio Code.app/Contents/Resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}
+VSCODE_NLS_CONFIG = {"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/private/var/folders/gk/f1bnn5dx6dg2x9zmdc_ttdj80000gn/T/AppTranslocation/E882900C-A4D4-447D-B62B-C523237AC573/d/Visual Studio Code.app/Contents/Resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}
 # environment
 _ = /usr/bin/make
 # makefile (from `Makefile', line 1)
@@ -151,7 +148,7 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 32158
+VSCODE_PID = 41683
 # variable set hash-table stats:
 # Load=69/1024=7%, Rehash=0, Collisions=1/92=1%
 
@@ -280,6 +277,9 @@ migrateup:
 
 migrateup1:
 #  Phony target (prerequisite of .PHONY).
+ 
+make: *** No rule to make target `all'.  Stop.
+
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
@@ -288,7 +288,6 @@ migrateup1:
 	
 
 migratedown:
- 
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -319,6 +318,6 @@ mock:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Fri Oct 18 11:12:20 2024
+# Finished Make data base on Mon Oct 21 21:31:13 2024
 
  
