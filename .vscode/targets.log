@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Tue Oct 22 12:08:54 2024
+# Make data base, printed on Tue Oct 22 22:01:04 2024
 
 # Variables
 
@@ -29,15 +29,18 @@ NVM_INC = /Users/navneetshahi/.nvm/versions/node/v20.17.0/include/node
 # automatic
 @F = $(notdir $@)
 # makefile
+ 
 CURDIR := /Users/navneetshahi/Code/go-db
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/private/var/folders/gk/f1bnn5dx6dg2x9zmdc_ttdj80000gn/T/AppTranslocation/F9E05AE0-11CF-4F4F-B046-F72915977810/d/Visual Studio Code.app/Contents/Resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}
+VSCODE_NLS_CONFIG = {"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/private/var/folders/gk/f1bnn5dx6dg2x9zmdc_ttdj80000gn/T/AppTranslocation/FF6E4E57-81C6-49BE-8DC4-8DC844534982/d/Visual Studio Code.app/Contents/Resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}
 # environment
 _ = /usr/bin/make
 # makefile (from `Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
@@ -45,7 +48,11 @@ INFOPATH = /opt/homebrew/share/info:
 # environment
 VSCODE_CWD = /
 # environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
 PATH = /opt/homebrew/opt/openjdk/bin:/Users/navneetshahi/.bun/bin:/Users/navneetshahi/.bun/bin:/Users/navneetshahi/.bun/bin:/Users/navneetshahi/.nvm/versions/node/v20.17.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/usr/local/go/bin:/Users/navneetshahi/go/bin
+# environment
+GOPATH = /Users/navneetshahi/go
 # environment
 NVM_BIN = /Users/navneetshahi/.nvm/versions/node/v20.17.0/bin
 # environment
@@ -65,7 +72,7 @@ ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
 MANPATH = /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:
 # environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+GOMODCACHE = /Users/navneetshahi/go/pkg/mod
 # environment
 HOME = /Users/navneetshahi
 # default
@@ -78,6 +85,8 @@ LOGNAME = navneetshahi
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 NVM_CD_FLAGS = -q
+# environment
+GOTELEMETRY_GOPLS_CLIENT_START_TIME = 1727722316
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -127,6 +136,8 @@ HOMEBREW_PREFIX = /opt/homebrew
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
+GOTELEMETRY_GOPLS_CLIENT_TOKEN = 349
+# environment
 VSCODE_L10N_BUNDLE_LOCATION = 
 # automatic
 +F = $(notdir $+)
@@ -151,9 +162,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 80128
+VSCODE_PID = 25520
 # variable set hash-table stats:
-# Load=69/1024=7%, Rehash=0, Collisions=1/92=1%
+# Load=74/1024=7%, Rehash=0, Collisions=2/97=2%
 
 # Pattern-specific Variable Values
 
@@ -177,7 +188,6 @@ postgres:
 #  File does not exist.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 2):
- 
 	docker run --name postgres17 -p 5432:5432 -e POSTGRES_USER=root -e POSTGRES_PASSWORD=mypass -d postgres:17-alpine  
 	
 
@@ -222,6 +232,7 @@ migratedown1:
 sqlc:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
+ 
 #  File does not exist.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 25):
@@ -383,6 +394,6 @@ mock:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Tue Oct 22 12:08:54 2024
+# Finished Make data base on Tue Oct 22 22:01:04 2024
 
  
